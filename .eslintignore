@@ -1,0 +1,6 @@
+package.json
+tsconfig.json
+dist
+pnpm-lock.yaml
+*.e2e-spec.ts
+*.spec.ts

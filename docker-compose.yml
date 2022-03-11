@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:8.0
+    env_file:
+      - ./sql/mysql.env
+    container_name: "database"
+    restart: "no"
+    ports:
+      - 3306:3306
+    volumes:
+      - ./sql/conf/mysql.cnf:/etc/mysql/conf.d/mysql.conf.cnf
+      - ./sql/data:/var/lib/mysql
+    networks:
+      - overlay
+
+networks:
+  overlay:
