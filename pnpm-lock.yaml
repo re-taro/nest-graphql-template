@@ -12,9 +12,9 @@ specifiers:
   '@nestjs/schematics': ^8.0.0
   '@nestjs/testing': ^8.0.0
   '@prisma/client': ^3.10.0
-  '@types/jest': 27.4.0
-  '@types/node': ^16.0.0
-  '@types/supertest': ^2.0.11
+  '@types/jest': 27.4.1
+  '@types/node': 16.11.26
+  '@types/supertest': 2.0.11
   '@typescript-eslint/eslint-plugin': 5.14.0
   '@typescript-eslint/parser': 5.14.0
   apollo-server-express: ^3.6.4
@@ -62,7 +62,7 @@ devDependencies:
   '@nestjs/platform-express': 8.4.0_31e7036b193d6d3c9cadab18cbb4af84
   '@nestjs/schematics': 8.0.8_typescript@4.6.2
   '@nestjs/testing': 8.4.0_5038ecb39d0fed2140e79e9371a95289
-  '@types/jest': 27.4.0
+  '@types/jest': 27.4.1
   '@types/node': 16.11.26
   '@types/supertest': 2.0.11
   '@typescript-eslint/eslint-plugin': 5.14.0_ace6f9e7722b813e21eaf2dc993bc413
@@ -75,7 +75,7 @@ devDependencies:
   prettier: 2.5.1
   source-map-support: 0.5.21
   supertest: 6.2.2
-  ts-jest: 27.1.3_ac171f3d9f636bd8b4c3e7aa384f840e
+  ts-jest: 27.1.3_60149d457e34ffba7d4e845dde6a1263
   ts-loader: 9.2.7_typescript@4.6.2+webpack@5.66.0
   ts-node: 10.7.0_045cabcbf8818eda83522fe731c87088
   tsconfig-paths: 3.13.0
@@ -1458,10 +1458,10 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.4.0:
-    resolution: {integrity: sha512-gHl8XuC1RZ8H2j5sHv/JqsaxXkDDM9iDOgu0Wp8sjs4u/snb2PVehyWXJPr+ORA0RPpgw231mnutWI1+0hgjIQ==}
+  /@types/jest/27.4.1:
+    resolution: {integrity: sha512-23iPJADSmicDVrWk+HT58LMJtzLAnB2AgIzplQuq/bSrGaxCrlvRFjGbXmamnnk/mAmCdLStiGqggu28ocUyiw==}
     dependencies:
-      jest-diff: 27.5.1
+      jest-matcher-utils: 27.5.1
       pretty-format: 27.5.1
     dev: true
 
@@ -6956,7 +6956,7 @@ packages:
     resolution: {integrity: sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA==}
     dev: true
 
-  /ts-jest/27.1.3_ac171f3d9f636bd8b4c3e7aa384f840e:
+  /ts-jest/27.1.3_60149d457e34ffba7d4e845dde6a1263:
     resolution: {integrity: sha512-6Nlura7s6uM9BVUAoqLH7JHyMXjz8gluryjpPXxr3IxZdAXnU6FhjvVLHFtfd1vsE1p8zD1OJfskkc0jhTSnkA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -6977,7 +6977,7 @@ packages:
       esbuild:
         optional: true
     dependencies:
-      '@types/jest': 27.4.0
+      '@types/jest': 27.4.1
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       jest: 27.5.1_ts-node@10.7.0
