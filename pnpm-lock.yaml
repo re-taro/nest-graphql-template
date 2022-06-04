@@ -4,7 +4,7 @@ specifiers:
   '@nestjs/apollo': ^10.0.6
   '@nestjs/cli': ^8.0.0
   '@nestjs/common': ^8.0.0
-  '@nestjs/config': 2.0.0
+  '@nestjs/config': 2.1.0
   '@nestjs/core': ^8.0.0
   '@nestjs/graphql': ^10.0.6
   '@nestjs/platform-express': ^8.4.0
@@ -43,7 +43,7 @@ specifiers:
 dependencies:
   '@nestjs/apollo': 10.0.6_1b443c1849c685f9971ad4a2286852c7
   '@nestjs/common': 8.4.0_5199533202e21c7185c9d97f881e2827
-  '@nestjs/config': 2.0.0_fa5d7eac25d9989be5b1db3b5778139c
+  '@nestjs/config': 2.1.0_fa5d7eac25d9989be5b1db3b5778139c
   '@nestjs/core': 8.4.0_ded80713f50ec1c99e9ba95af1765d72
   '@nestjs/graphql': 10.0.6_ef2ba91e7e86daeb2a6b426b8271b79e
   '@nestjs/platform-fastify': 8.4.0_31e7036b193d6d3c9cadab18cbb4af84
@@ -1064,16 +1064,16 @@ packages:
     transitivePeerDependencies:
       - debug
 
-  /@nestjs/config/2.0.0_fa5d7eac25d9989be5b1db3b5778139c:
-    resolution: {integrity: sha512-Hi1k/1S5ogsS5c0OtNm72thiLSngijOaLDFaGI5ZPxNGpF23lctPg6ox3pYIOhXVRX/u+eiUIp71gswH2k8YNw==}
+  /@nestjs/config/2.1.0_fa5d7eac25d9989be5b1db3b5778139c:
+    resolution: {integrity: sha512-wUpt1/QJEN7xnJl4pM3c9rHrY1widq2yPOZfjaMD1//XAP9LLHTaW+RxSEG6BSGIm3w4wGtjco+gKNB2WL7yRg==}
     peerDependencies:
       '@nestjs/common': ^7.0.0 || ^8.0.0
       reflect-metadata: ^0.1.13
       rxjs: ^6.0.0 || ^7.2.0
     dependencies:
       '@nestjs/common': 8.4.0_5199533202e21c7185c9d97f881e2827
-      dotenv: 16.0.0
-      dotenv-expand: 8.0.2
+      dotenv: 16.0.1
+      dotenv-expand: 8.0.3
       lodash: 4.17.21
       reflect-metadata: 0.1.13
       rxjs: 7.5.5
@@ -2904,13 +2904,13 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /dotenv-expand/8.0.2:
-    resolution: {integrity: sha512-vKKAk+VOzAWOV/dPIeSYqhgC/TQY+6L6Ibkzfsr8xd1stdBsTuGu9asCOXgbYbBeS+f2Y6lqqEuw7riOA+xEUQ==}
+  /dotenv-expand/8.0.3:
+    resolution: {integrity: sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==}
     engines: {node: '>=12'}
     dev: false
 
-  /dotenv/16.0.0:
-    resolution: {integrity: sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==}
+  /dotenv/16.0.1:
+    resolution: {integrity: sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==}
     engines: {node: '>=12'}
     dev: false
 
